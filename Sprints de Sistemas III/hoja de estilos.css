@@ -1,0 +1,125 @@
+﻿/*Color en el cuerpo*/
+body {
+    background:grey;
+    background-color: lightcyan;
+}
+/*Color en los parrafos*/
+p {
+    font-family: Arial;
+    line-height: 20px;
+    color: black;
+}
+/*Encabezados H1*/
+h1 {
+    font-family: 'Courier New';
+    background-color:darkcyan;
+    
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+}
+/*Encabezados H2*/
+h2 {
+    font-family: 'Courier New';
+    font-size: 24pt;
+    font-weight: bold;
+    color: darkred;
+}
+/*Encabezados H3*/
+h3 {
+    font-family: 'Arial Rounded MT';
+    font-size: 20pt;
+    font-weight: bold;
+    color: darkviolet;
+}
+/*Encabezados H4*/
+h4 {
+    font-family: Verdana;
+    font-size: 16pt;
+    font-weight: bold;
+    color: orangered;
+}
+
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+    .mGrid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        color: #717171;
+    }
+
+    .mGrid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .mGrid .alt {
+        background: #fcfcfc url(grd_alt.png) repeat-x top;
+    }
+
+    .mGrid .pgr {
+        background: #424242 url(grd_pgr.png) repeat-x top;
+    }
+
+        .mGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: black;
+            line-height: 12px;
+        }
+
+        .mGrid .pgr a {
+            color: black;
+            text-decoration: none;
+        }
+
+            .mGrid .pgr a:hover {
+                color: black;
+                text-decoration: none;
+                
+            }
+
+.button {
+    width: 10%;
+    background-color:royalblue;
+    color:white;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-radius:5px;
+}
+.button1 {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 15px 80px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.images1{
+    border:1px solid #ddd;
+    padding: 5px;
+    width:123px;
+    height:220px;
+}
+.table1{
+    table-layout:fixed;
+    width:100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
